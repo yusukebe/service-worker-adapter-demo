@@ -10,7 +10,7 @@ function register() {
 }
 function start() {
   navigator.serviceWorker.getRegistrations().then(function (registrations) {
-    for (let registration of registrations) {
+    for (const registration of registrations) {
       console.log('Unregister Service Worker')
       registration.unregister()
     }

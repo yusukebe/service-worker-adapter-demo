@@ -1,5 +1,5 @@
 {
-  "name": "sw-demo",
+  "name": "service-worker-adapter-demo",
   "private": true,
   "version": "0.0.0",
   "type": "module",

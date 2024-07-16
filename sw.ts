@@ -1,4 +1,3 @@
-/// <reference lib="webworker" />
 // Support types
 // https://github.com/microsoft/TypeScript/issues/14877
 declare const self: ServiceWorkerGlobalScope
